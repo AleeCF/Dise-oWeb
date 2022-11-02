@@ -1,0 +1,115 @@
+#logonike {
+    border-radius: 5px;
+    background-image: url("../fotos/logo.png");
+    width: 100%;
+    height: 220px;
+    background-repeat: inherit;
+    margin-bottom: 2%;
+}
+
+nav{
+    width: 53%;
+    height: 20%;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(234, 231, 231);
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 30px;
+    margin-left:  25%;
+    color:rgb(0, 0, 0);
+}
+
+a {
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background: -webkit-linear-gradient(rgb(42, 13, 156),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(37, 7, 102); 
+}
+
+#form{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 48%;
+    margin: 12% 0% 0% 27%; 
+    border: 2px solid black;
+    border-radius: 5%;
+}
+
+input[type="submit"]{
+    margin: 3% 0% 0% 6%;
+    display: inline;
+    width: 87%;
+    font-size: 100%;
+}
+
+.buttonC{
+    margin-top: 21% !important;
+    
+}
+.form_group{
+    display:flex;
+    flex-direction: column; 
+    padding:0% 15% 1% 15% ;
+}
+
+
+.form_label{
+    padding-top:2% ;
+}
+
+.buttonC:hover{
+    background: #1a2537;   
+    color: white; 
+}
+
+.buttonA:hover{
+    background: #1a2537;    
+    color: white;
+}
+
+#button1{
+    text-align: right;
+    margin-top: 82% 5% 0% 0%;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    height: 40%;
+    margin-top: 12%;
+    flex-wrap: wrap;
+}
+
+footer ol{
+    padding-top: 85px;
+    margin-left: 100px;
+    display: inline-block;
+}
+footer li{
+    color:white ;
+    font-size: 28px;
+    display: flex;
+}
+
+#segundool{
+    margin-left: 100px;
+}
+
+#tercerol{
+    margin-left: 100px;
+}

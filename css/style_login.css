@@ -1,0 +1,168 @@
+
+#logonike {
+    border-radius: 5px;
+    background-image: url("../fotos/logo.png");
+    width: 100%;
+    height: 220px;
+    background-repeat: inherit;
+    margin-bottom: 2%;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+}
+
+
+nav{
+    width: 53%;
+    height: 20%;
+    border-radius: 10px;
+    border-left: 10px solid;
+    border-right: 10px solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(234, 231, 231);
+    line-height: 1.5em;
+    text-align: center;
+    font-size: 30px;
+    margin-left:  25%;
+    color:rgb(0, 0, 0);
+}
+
+a {
+    border-left: 3px solid;
+    border-right: 3px solid;
+    background: -webkit-linear-gradient(rgb(42, 13, 156),rgb(0, 0, 0));
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(37, 7, 102); 
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.formulario{
+    background: #fff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 0%;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="email"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.divcontenedor{
+    width: 100%;
+    padding: 15px;
+}
+
+.contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    
+    font-size: 20px;
+    
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background:  #1a2537;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+     color: cadetblue;
+}
+
+.formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+}
+
+footer {
+    display: flex   ;
+    background-color: black;
+    height: 40%;
+    margin-top: 12%;
+    flex-wrap: wrap;
+}
+
+footer ol {
+    padding-top: 85px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+footer li{
+    color:white;
+    font-size: 28px;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
